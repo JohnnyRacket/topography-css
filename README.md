@@ -45,7 +45,7 @@ This library attempts to take an organic balance between speed and flexibility, 
 
 There are two key concepts in this library:
 - **input**: something the user will input into, i.e. a text input or a button
-- **element**: a div that is tangible and not just for styling, this will be like a card holding text or anything that needs styling inherited
+- **element**: a div that is tangible (i.e. visually shows on screen), this will be like a card holding text or anything that needs styling inherited
 
 There are 3 main theme concepts in this library:
 - **light**: a light theme
@@ -53,6 +53,9 @@ There are 3 main theme concepts in this library:
 - **accent**: a chosen accent color to make certain things pop
 
 Within a given theme there are a few style options:
+- **background**: the background surface
 - **element**: a standard surface
+- **input**: a standard interactable surface
 - **contrast**: a contrasting surface
 - **outline**: a surface that has the same color as the background but with an outline
+- **link**: no surface, but bold text that will brighten/contrast when hovered

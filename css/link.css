@@ -1,0 +1,15 @@
+.link{
+    color:var(--dark-outline);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dark .link, .dark.link{
+    color:var(--light-outline);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.link:hover{
+    color:var(--text-highlight);
+}
