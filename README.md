@@ -24,8 +24,8 @@ It is created to just let you slap on all of the css classes you want to modify 
 
 For Example if you have a button `<button></button>`:
 1. declare it as an input type: `<button class="input"></button>`
-2. say you want to make it squircle: <button class="input semi-rounded"></button>
-3. now you want it to appear to lift some when hovered/selected: <button class="input semi-rounded float-2"></button>
-3. now you want it to stand out more so you use your accent color for the button: <button class="input semi-rounded float-2 accent"></button>
+2. say you want to make it squircle: `<button class="input semi-rounded"></button>`
+3. now you want it to appear to lift some when hovered/selected: `<button class="input semi-rounded float-2"></button>`
+3. now you want it to stand out more so you use your accent color for the button: `<button class="input semi-rounded float-2 accent"></button>`
 
 The idea here is you just keep tacking on the tools the library gives you to make everything look the way you want and it behaves how you expect it.
