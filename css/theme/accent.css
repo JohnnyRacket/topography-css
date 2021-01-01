@@ -1,0 +1,29 @@
+.accent{
+    --element: var(--accent-element);
+    --border: var(--accent-element);
+    --text: var(--light-text);
+    --element-highlight: var(--accent-highlight);
+    --border-highlight: var(--accent-highlight);
+    --text-highlight:  var(--light-text);
+}
+
+.dark .accent, .dark.accent{
+    --element: var(--accent-highlight);
+    --text: var(--light-text);
+    --border: var(--accent-highlight);
+    --element-highlight: var(--accent-element);
+    --border-highlight: var(--accent-element);
+    --text-highlight: var(--light-text);
+}
+
+.outline.accent{
+    --element: var(--light-background);
+    --text: var(--accent-element);
+    --element-highlight: var(--light-background);
+}
+
+.dark .outline.accent,.dark.outline.accent {
+    --element: var(--dark-background);
+    --text: var(--accent-highlight);
+    --element-highlight: var(--dark-background);
+}

@@ -1,0 +1,16 @@
+.note{
+    font-size: .8rem;
+    color: var(--medium-text);
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+.input{
+    padding: .5rem 1rem;
+    margin: .5rem;
+    background-color: var(--element);
+    color: var(--text);
+    border: 1px solid var(--border);
+    outline: none;
+    transition: 250ms;
+}
+
+.input:hover{
+    border-color: var(--border-highlight);
+    background-color: var(--element-highlight);
+  }
+.input:focus{
+    background-color: var(--background);
+    border-color: var(--accent-highlight);
+    color: var(--text-highlight);
+}
+
+button.input:focus{
+    background-color: var(--element-highlight);
+    border-color: var(--element-highlight);
+    color: var(--text);
+}
+
+.input:disabled{
+    background-color: var(--disabled);
+    border-color: var(--disabled);
+    color: var(--medium-text);
+    cursor: not-allowed;
+}
+
+
+label{
+    color: var(--text)
+}

@@ -1,0 +1,10 @@
+.element{
+    background-color: var(--element);
+    color: var(--text);
+    border: 1px solid var(--border);
+    transition: 250ms;
+}
+
+.background{
+    background-color: var(--background);
+}

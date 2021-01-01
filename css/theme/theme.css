@@ -1,0 +1,20 @@
+:root{
+    --background: var(--light-background);
+    --element: var(--light-element);
+    --border: var(--light-element);
+    --text: var(--medium-dark-text);
+    --disabled: var(--light-disabled);
+    --element-highlight: var(--light-highlight);
+    --border-highlight: var(--light-highlight);
+    --text-highlight: var(--dark-text);
+    --contrast: var(--light-contrast);
+}
+
+.outline{
+    --element: var(--light-background);
+    --border: var(--light-outline);
+    --text: var(--medium-dark-text);
+    --element-highlight: var(--light-background);
+    --border-highlight: var(--dark-outline);
+    --text-highlight: var(--dark-text);
+}
