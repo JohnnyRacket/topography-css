@@ -27,7 +27,7 @@ function App() {
             <Card />
             <Card />
           </div>
-          <div>
+          <div style={{width: '300px', marginTop:'3rem', marginRight: '3rem'}}>
             <Sidebar/>
           </div>
         </div>
