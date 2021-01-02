@@ -2,7 +2,7 @@ import './Sidebar.css';
 
 export const Sidebar = (props) => {
     return (
-        <div className="element semi-rounded spaced margin contrast text-left sidebar" style={{width: '300px', position: 'fixed'}}>
+        <div className="element semi-rounded spaced margin contrast text-left" style={{width: '300px', position: 'fixed'}}>
         <h3>Search</h3>
         <div className="flex row flex-center">
             <input className="input rounded fill-width margin-none" Placeholder="Search..."></input>

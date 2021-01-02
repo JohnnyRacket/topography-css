@@ -1,15 +1,15 @@
 :root{
     --light-background: #f7f7fa;
-    --light-element: #ebebee;
+    --light-element: #e7e7ea;
     --light-disabled: #f7f7f7;
-    --light-highlight: #e2e2e6;
+    --light-highlight: #dfdfe2;
     --light-outline: #aaa;
     --light-contrast: #fff;
 
-    --dark-background: #121212;
-    --dark-element: #2c2c2c;
+    --dark-background: #131315;
+    --dark-element: #2c2c2e;
     --dark-disabled: #1e1e1e;
-    --dark-highlight: #383838;
+    --dark-highlight: #38383a;
     --dark-outline: #555;
     --dark-contrast: #000;
 

@@ -1,0 +1,14 @@
+@media screen and (max-width: 1000px) {
+    .author-image {
+      display: none;
+    }
+    .stats{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .author {
+      display: none;
+    }
+}

@@ -12,8 +12,8 @@ function App() {
     <div className={`App background ${theme}`} style={{minHeight: '100vh'}}>
       <Header toggleTheme={() => {theme == "dark" ? setTheme("light") : setTheme("dark")}}/>
       <div className="container">
-        <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap'}}>
-          <div className="margin-double padding " style={{flex: 1}}>
+        <div className="flex row flex-wrap">
+          <div className="margin-double padding flex-fill content">
           <SortBar />
             <Card />
             <Card />
@@ -27,7 +27,7 @@ function App() {
             <Card />
             <Card />
           </div>
-          <div style={{width: '300px', marginTop:'3rem', marginRight: '3rem'}}>
+          <div className="sidebar" style={{width: '300px', marginTop:'3rem', marginRight: '3rem'}}>
             <Sidebar/>
           </div>
         </div>
