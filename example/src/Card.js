@@ -9,7 +9,7 @@ export const Card = (props) => {
                 <Stat name="Views" value="113"/>
                 <Stat name="Likes" value="36"/>
             </div>
-            <div className="text-left spaced" style={{flex: 1}}>This is an example title of a card</div>
+            <div className="text-left spaced flex-fill" >This is an example title of a card</div>
             <Author name="Dude McDude" date="2/2/1969"/>
         </div>
     );
