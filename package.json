@@ -20,6 +20,11 @@
   "keywords": [
     "css"
   ],
+  "files":["dist/*"],
   "author": "John Harrison",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohnnyRacket/topography-css"
+  },
   "license": "MIT"
 }
