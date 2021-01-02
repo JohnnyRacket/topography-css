@@ -49,53 +49,75 @@ This library attempts to take an organic balance between speed and flexibility, 
 ### The basics
 
 #### There are 3 key concepts in this library:
-- **background**: the background color/surface
-- **input**: something the user will input into, i.e. a text input or a button
-- **element**: a div that is tangible (i.e. visually shows on screen), this will be like a card holding text or anything that needs styling inherited
+| Class      | Description |
+| ----------- | ----------- |
+| **background** | the background color/surface |
+| **input** | something the user will input into, i.e. a text input or a button |
+| **element** | a div that is tangible (i.e. visually shows on screen), this will be like a card holding text or anything that needs styling  inherited |
 
 #### There are 3 main theme concepts in this library:
-- **light**: a light theme
-- **dark**: a dark mode theme
-- **accent**: a chosen accent color to make certain things pop, honestly more a modifier than a theme, but it is changable via css vars like a theme
+| Class      | Description |
+| ----------- | ----------- |
+| **light** | a light theme |
+| **dark** | a dark mode theme |
+| **accent** | a chosen accent color to make certain things pop, honestly more a modifier than a theme, but it is changable via css vars like a theme |
 
 ### Modifiers
 
 #### Within a given theme there are a few base style modifiers:
-- **accent**: modifier to make something pop by using color
-- **contrast**: a high sontrast surface
-- **outline**: a surface that has the same color as the background but with an outline to denote it
-- **link**: no surface, but bold text that will brighten/contrast when hovered
+
+| Class      | Description |
+| ----------- | ----------- |
+| **accent**| modifier to make something pop by using color |
+| **contrast**| a high sontrast surface |
+| **outline**| a surface that has the same color as the background but with an outline to denote it |
+| **link**| no surface, but bold text that will brighten/contrast when hovered |
 
 #### Elevation modifiers (drop shadow):
-- **elevation-0**: no drop shadow
-- **elevation-1**: smallest drop shadow, gives the illusion of being right on top of the surface its on
-- **elevation-2**: medium drop shadow, more elevated looking
-- **elevation-3**: medium drop shadow, even more elevated looking
-- **elevation-4**: largest, but also lightest, gives illusion of being far off the surface its on
+
+| Class      | Description |
+| ----------- | ----------- |
+| **elevation-0** | no drop shadow |
+| **elevation-1** | smallest drop shadow, gives the illusion of being right on top of the surface its on |
+| **elevation-2** | medium drop shadow, more elevated looking |
+| **elevation-3** | medium drop shadow, even more elevated looking |
+| **elevation-4** | largest, but also lightest, gives illusion of being far off the surface its on |
 
 #### Elevation modifier on hover (hence the verb float):
-- **float-0**: no drop shadow when hoveered
-- **float-1**: smallest drop shadow, gives the illusion of being right on top of the surface its on when hovered
-- **float-2**: medium drop shadow, more elevated looking when hovered
-- **float-3**: medium drop shadow, even more elevated looking when hovered
-- **float-4**: largest, but also lightest, gives illusion of being far off the surface its on when hovered
+
+| Class      | Description |
+| ----------- | ----------- |
+| **float-0** | no drop shadow when hoveered |
+| **float-1** | smallest drop shadow, gives the illusion of being right on top of the surface its on when hovered |
+| **float-2** | medium drop shadow, more elevated looking when hovered |
+| **float-3** | medium drop shadow, even more elevated looking when hovered |
+| **float-4** | largest, but also lightest, gives illusion of being far off the surface its on when hovered |
 
 A common way to combine the above is to have an element have a low/no elevation and a higher float
 
 #### Interaction modifiers:
-- **highlight**: highlights the element on hover and makes cursor a pointer ot show it is interactable
+
+| Class      | Description |
+| ----------- | ----------- |
+| **highlight** | highlights the element on hover and makes cursor a pointer ot show it is interactable |
 
 #### Shape modifiers (by default everything is square):
-- **square**: default, but included class for resetting, or changing via js
-- **semi-rounded**: rounded corners
-- **rounded**: pill-like shape
-- **round**: round, as in a circle, as long as your height and width are set the same
+
+| Class      | Description |
+| ----------- | ----------- |
+| **square** | default, but included class for resetting, or changing via js |
+| **semi-rounded** | rounded corners |
+| **rounded** | pill-like shape |
+| **round** | round, as in a circle, as long as your height and width are set the same |
 
 #### Size modifiers (this affects text size, so it will change the size of inputs/buttons/things that contain text):
-- **small**
-- **medium**
-- **large**
+
+| Class      | Description |
+| ----------- | ----------- |
+| **small** |
+| **medium** |
+| **large** |
 
 ### Helpers
 
-#### flex helpers (allowind you to build flex layouts faster using classes):
+#### Flex helpers (allowind you to build flex layouts faster using classes):
