@@ -119,5 +119,17 @@ A common way to combine the above is to have an element have a low/no elevation 
 | **large** |
 
 ### Helpers
+these are classes that are just shorhand utiliy classes for styling
 
-#### Flex helpers (allowind you to build flex layouts faster using classes):
+#### Flex helpers (allowing you to build flex layouts faster using classes):
+
+| Class      | Description |
+| ----------- | ----------- |
+| **flex** |    display: flex; |
+| **column** | flex-direction: column; |
+| **row** | flex-direction: row; |
+| **align-center** | align-Items: center; |
+| **justify-center** | justify-content: center; |
+| **flex-center** | align-items: center;justify-content: center; |
+| **flex-wrap** | flex-wrap: wrap; |
+| **flex-fill** | flex: 1; |
