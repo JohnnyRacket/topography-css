@@ -6,6 +6,8 @@ import {Card} from './Card';
 import {useState} from 'react';
 import { SortBar } from './SortBar';
 import { Footer } from './Footer';
+import { Documentation } from './Documentation/Documentation';
+
 function App() {
   const [theme, setTheme] = useState("dark");
   return (
@@ -15,17 +17,9 @@ function App() {
         <div className="flex row flex-wrap">
           <div className="margin-double padding flex-fill content">
           <SortBar />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <div className="element contrast spaced semi-rounded margin">
+              <Documentation />
+            </div>
           </div>
           <div className="sidebar" style={{width: '300px', marginTop:'3rem', marginRight: '3rem'}}>
             <Sidebar/>

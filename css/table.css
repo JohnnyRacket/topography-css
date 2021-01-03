@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+}
+tr {
+    border-bottom: 1px solid var(--border);
+}
+th{
+    text-align: left;
+    padding: 1rem;
+    background: var(--element-highlight);
+}
+
+td {
+    text-align: left;
+    padding: .5rem 1rem;
+}
+.contrast tr:nth-child(2n){
+    background: var(--element);
+}
+tr:nth-child(2n){
+    background: var(--contrast);
+}
