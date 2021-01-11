@@ -17,7 +17,7 @@ export const Modifiers = (props) => {
         <div className="text-left" style={{ marginBottom: '4rem' }}>
             <ReactMarkdown source={markdown} plugins={[gfm]} />
             <h2>Examples</h2>
-            <div className="background outline padding-double">
+            <div className="background outline padding-double flex row flex-wrap">
                 <div className="element margin spaced" style={{ width: '100px', height: '100px' }}>basic element</div>
                 <div className="element outline margin spaced" style={{ width: '100px', height: '100px' }}> outline element</div>
                 <div className="element link margin spaced" style={{ width: '100px', height: '100px' }}>link element</div>

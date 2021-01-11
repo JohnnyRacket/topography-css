@@ -18,13 +18,13 @@ export const Surface = (props) => {
         <div className="text-left" style={{marginBottom: '4rem'}}>
             <ReactMarkdown source={markdown} plugins={[gfm]} />
             <h2>Examples</h2>
-            <div className="background outline padding-double">
-                background
-                <div className="background outline margin" style={{width: '100px', height: '100px'}}></div>
-                element
-                <div className="element outline margin" style={{width: '100px', height: '100px'}}></div>
-                contrast
-                <div className="contrast outline margin" style={{width: '100px', height: '100px'}}></div>
+            <div className="background outline padding-double flex row flex-wrap">
+
+                <div className="background outline spaced" style={{width: '120px', height: '120px'}}> background</div>
+
+                <div className="element outline spaced" style={{width: '120px', height: '120px'}}>element</div>
+
+                <div className="contrast outline spaced" style={{width: '120px', height: '120px'}}>contrast</div>
             </div>
         </div>
     );
