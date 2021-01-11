@@ -1,0 +1,4 @@
+.outline{
+    border: 1px solid;
+    border-color: var(--outline);
+}

@@ -4,6 +4,7 @@ import gfm from 'remark-gfm'
 export const Elevation = (props) => {
 
     const markdown = `
+## Elevation
 #### Elevation modifiers (drop shadow):
 
 | Class      | Description |
@@ -30,6 +31,23 @@ A common way to combine the above is to have an element have a low/no elevation 
     return (
         <div className="text-left" style={{marginBottom: '4rem'}}>
             <ReactMarkdown source={markdown} plugins={[gfm]} />
+            <h2>Examples</h2>
+            <div className="background outline padding-double">
+                <div className="flex row">
+                    <div className="element margin spaced semi-rounded elevation-0" style={{ width: '100px', height: '100px' }}>elevation 0</div>
+                    <div className="element margin spaced semi-rounded elevation-1" style={{ width: '100px', height: '100px' }}>elevation 1</div>
+                    <div className="element margin spaced semi-rounded elevation-2" style={{ width: '100px', height: '100px' }}>elevation 2</div>
+                    <div className="element margin spaced semi-rounded elevation-3" style={{ width: '100px', height: '100px' }}>elevation 3</div>
+                    <div className="element margin spaced semi-rounded elevation-4" style={{ width: '100px', height: '100px' }}>elevation 4</div>
+                </div>
+                <div className="flex row">
+                    <div className="element margin spaced semi-rounded float-0" style={{ width: '100px', height: '100px' }}>float 0</div>
+                    <div className="element margin spaced semi-rounded float-1" style={{ width: '100px', height: '100px' }}>float 1</div>
+                    <div className="element margin spaced semi-rounded float-2" style={{ width: '100px', height: '100px' }}>float 2</div>
+                    <div className="element margin spaced semi-rounded float-3" style={{ width: '100px', height: '100px' }}>float 3</div>
+                    <div className="element margin spaced semi-rounded float-4" style={{ width: '100px', height: '100px' }}>float 4</div>
+                </div>
+            </div>
         </div>
     );
   }

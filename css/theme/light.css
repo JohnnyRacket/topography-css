@@ -1,4 +1,4 @@
-:root{
+.light{
     --background: var(--light-background);
     --element: var(--light-element);
     --border: var(--light-element);

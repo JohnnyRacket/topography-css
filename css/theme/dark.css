@@ -2,19 +2,11 @@
     --background: var(--dark-background);
     --element: var(--dark-element);
     --border: var(--dark-element);
+    --outline: var(--dark-outline);
     --text: var(--light-text);
     --disabled: var(--dark-disabled);
     --element-highlight: var(--dark-highlight);
     --border-highlight: var(--dark-highlight);
     --text-highlight: var(--light-text);
     --contrast: var(--dark-contrast)
-}
-
-.dark .outline,.dark.outline {
-    --element: var(--dark-background);
-    --border: var(--dark-outline);
-    --text: var(--medium-light-text);
-    --element-highlight: var(--dark-background);
-    --border-highlight: var(--light-outline);
-    --text-highlight: var(--light-text);
 }

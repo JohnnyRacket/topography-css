@@ -1,6 +1,6 @@
 import {Surface} from './Surface'
 import {Theme} from './Theme';
-import {Basic} from './Basic';
+import {Modifiers} from './Modifiers';
 import {Elevation} from './Elevation';
 import {Interaction} from './Interaction';
 import {Shape} from './Shape';
@@ -11,14 +11,14 @@ export const Documentation = (props) => {
 
     return (
         <div>
-            <a id="surface" >
-                <Surface/>
-            </a>
             <a id="theme">
                 <Theme/>
             </a>
-            <a id="basic">
-                <Basic/>
+            <a id="surface" >
+                <Surface/>
+            </a>
+            <a id="modifier">
+                <Modifiers/>
             </a>
             <a id="elevation">
                 <Elevation/>
