@@ -4,6 +4,7 @@ import gfm from 'remark-gfm'
 export const Interaction = (props) => {
 
     const markdown = `
+## Interaction
 #### Interaction modifiers:
 
 | Class      | Description |
@@ -15,6 +16,11 @@ export const Interaction = (props) => {
     return (
         <div className="text-left" style={{marginBottom: '4rem'}}>
             <ReactMarkdown source={markdown} plugins={[gfm]} />
+            <h2>Examples</h2>
+            <div className="background outline padding-double">
+                <div className="element semi-rounded spaced">normal</div>
+                <div className="element semi-rounded spaced highlight">highlight</div>
+            </div>
         </div>
     );
   }

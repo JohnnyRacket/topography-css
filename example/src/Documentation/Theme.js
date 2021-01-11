@@ -15,16 +15,16 @@ export const Theme = (props) => {
 `;
 
     return (
-        <div className="text-left" style={{marginBottom: '4rem'}}>
+        <div className="text-left" style={{ marginBottom: '4rem' }}>
             <ReactMarkdown source={markdown} plugins={[gfm]} />
             <h2>Examples</h2>
             <div className="background outline padding-double">
-            <button className="light input">light</button>
-            <button className="dark input">dark</button>
-            <button className="accent input">accent</button>
+                <button className="light input">light</button>
+                <button className="dark input">dark</button>
+                <button className="accent input">accent</button>
             </div>
         </div>
 
-        
+
     );
-  }
+}
