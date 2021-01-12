@@ -1,22 +1,22 @@
-table {
+.table {
     border-collapse: collapse;
 }
-tr {
+.table tr {
     border-bottom: 1px solid var(--border);
 }
-th{
+.table th{
     text-align: left;
     padding: 1rem;
     background: var(--element-highlight);
 }
 
-td {
+.table td {
     text-align: left;
     padding: .5rem 1rem;
 }
-.contrast tr:nth-child(2n){
+.table .contrast tr:nth-child(2n){
     background: var(--element);
 }
-tr:nth-child(2n){
+.table tr:nth-child(2n){
     background: var(--contrast);
 }
