@@ -1,5 +1,5 @@
 .link{
-    color:var(--outline);
+    color:var(--medium-text);
     font-weight: bold;
     cursor: pointer;
 }
