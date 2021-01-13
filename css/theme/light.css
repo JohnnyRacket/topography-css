@@ -2,6 +2,7 @@
     --background: var(--light-background);
     --element: var(--light-element);
     --border: var(--light-element);
+    --outline: var(--light-outline);
     --text: var(--medium-dark-text);
     --disabled: var(--light-disabled);
     --element-highlight: var(--light-highlight);

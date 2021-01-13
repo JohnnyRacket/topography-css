@@ -17,3 +17,66 @@
 .elevation-4{
     box-shadow: 0 16px 24px -4px rgba(0, 0, 0, 0.1), 0 8px 16px -4px rgba(0, 0, 0, 0.025);
 }
+
+
+.dark .elevation-1{
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 1);
+}
+
+.dark .elevation-2{
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.75);
+}
+
+.dark .elevation-3{
+    box-shadow: 0 8px 12px -2px rgba(0, 0, 0, 0.1), 0 4px 8px -2px rgba(0, 0, 0, 0.5);
+}
+
+.dark .elevation-4{
+    box-shadow: 0 16px 24px -4px rgba(0, 0, 0, 0.1), 0 8px 16px -4px rgba(0, 0, 0, 0.25);
+}
+
+
+.float-0:hover,.float-0:focus{
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.float-1:hover,.float-1:focus{
+    cursor: pointer;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.float-2:hover,.float-2:focus{
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.075);
+}
+
+.float-3:hover,.float-3:focus{
+    cursor: pointer;
+    box-shadow: 0 8px 12px -2px rgba(0, 0, 0, 0.1), 0 4px 8px -2px rgba(0, 0, 0, 0.05);
+}
+
+.float-4:hover,.float-4:focus{
+    cursor: pointer;
+    box-shadow: 0 16px 24px -4px rgba(0, 0, 0, 0.1), 0 8px 16px -4px rgba(0, 0, 0, 0.025);
+}
+
+.dark .float-1:hover,.float-1:focus{
+    cursor: pointer;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 1);
+}
+
+.dark .float-2:hover,.float-2:focus{
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.75);
+}
+
+.dark .float-3:hover,.float-3:focus{
+    cursor: pointer;
+    box-shadow: 0 8px 12px -2px rgba(0, 0, 0, 0.1), 0 4px 8px -2px rgba(0, 0, 0, 0.5);
+}
+
+.dark .float-4:hover,.float-4:focus{
+    cursor: pointer;
+    box-shadow: 0 16px 24px -4px rgba(0, 0, 0, 0.1), 0 8px 16px -4px rgba(0, 0, 0, 0.25);
+}

@@ -1,11 +1,5 @@
 .link{
-    color:var(--dark-outline);
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.dark .link, .dark.link{
-    color:var(--light-outline);
+    color:var(--outline);
     font-weight: bold;
     cursor: pointer;
 }
