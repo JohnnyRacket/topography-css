@@ -3,10 +3,6 @@
     margin: .5rem;  
 }
 
-.spaced > h1:first-child,h2:first-child,h3:first-child,h4:first-child, h5:first-child, h6:first-child{
-  margin-top: .5rem;
-}
-
 .no-space{
   margin: 0;
   padding: 0;

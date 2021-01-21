@@ -1,4 +1,4 @@
-.table {
+.table table, table.table{
     border-collapse: collapse;
 }
 .table tr {
@@ -6,17 +6,15 @@
 }
 .table th{
     text-align: left;
-    padding: 1rem;
-    background: var(--element-highlight);
+    padding: .25rem 1rem;
+    background: var(--element);
 }
 
 .table td {
     text-align: left;
     padding: .5rem 1rem;
 }
-.table .contrast tr:nth-child(2n){
+
+.table .table-striped tr:nth-child(2n){
     background: var(--element);
-}
-.table tr:nth-child(2n){
-    background: var(--contrast);
 }

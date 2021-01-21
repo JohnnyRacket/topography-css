@@ -2,23 +2,20 @@ import ReactMarkdown from 'react-markdown';
 import gfm from 'remark-gfm';
 
 
-export const Theme = (props) => {
+export const Spacing = (props) => {
 
     const markdown = `
-## Themes
+## Spacing Helpers
 
 | Class      | Description |
 | ----------- | ----------- |
-| **light** | a light theme |
-| **dark** | a dark mode theme |
-| **accent** | a chosen accent color to make certain things pop, honestly more a modifier than a theme, but it is changable via css vars like a theme |
+| **coming soon** | coming soon |
+
 `;
 
     const code = `
 ~~~js
-<button className="input light">light</button>
-<button className="input dark">dark</button>
-<button className="input accent">accent</button>
+// coming soon...
 ~~~
 `
 
@@ -29,9 +26,7 @@ export const Theme = (props) => {
             </div>
             <h3>Examples</h3>
             <div className="background outline padding-double">
-                <button className="input light">light</button>
-                <button className="input dark">dark</button>
-                <button className="input accent">accent</button>
+                <div>coming soon...</div>
             </div>
             <div>
                 <h3>Code</h3>

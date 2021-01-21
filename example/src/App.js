@@ -18,7 +18,7 @@ function App() {
           <div className="margin-double padding flex-fill content">
           <SortBar />
             <div className="element contrast spaced semi-rounded margin">
-              <Documentation />
+              <Documentation theme={theme}/>
             </div>
           </div>
           <div className="sidebar" style={{width: '300px', marginTop:'3rem', marginRight: '3rem'}}>

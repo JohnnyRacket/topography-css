@@ -1,6 +1,6 @@
 {
   "name": "topography-css",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Light-weight modular css library meant to aid in styling without prescribing a certain look.",
   "main": "dist/topography.js",
   "homepage": "http://johnnyracket.github.io/topography-css",
