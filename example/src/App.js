@@ -14,8 +14,8 @@ function App() {
     <div className={`App background ${theme}`} style={{minHeight: '100vh'}}>
       <Header toggleTheme={() => {theme == "dark" ? setTheme("light") : setTheme("dark")}}/>
       <div className="container">
-        <div className="flex row flex-wrap">
-          <div className="margin-double padding flex-fill content">
+        <div className="flex flex-row flex-wrap">
+          <div className="margin-double padding flex-fill content" style={{minWidth: 0}}>
           <SortBar />
             <div className="element contrast spaced semi-rounded margin">
               <Documentation theme={theme}/>

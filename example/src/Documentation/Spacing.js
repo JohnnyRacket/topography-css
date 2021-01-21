@@ -18,7 +18,6 @@ export const Spacing = (props) => {
 // coming soon...
 ~~~
 `
-
     return (
         <div className="text-left" style={{ marginBottom: '4rem' }}>
             <div className="table">
@@ -26,7 +25,7 @@ export const Spacing = (props) => {
             </div>
             <h3>Examples</h3>
             <div className="background outline padding-double">
-                <div>coming soon...</div>
+                <div>coming soon... </div>
             </div>
             <div>
                 <h3>Code</h3>

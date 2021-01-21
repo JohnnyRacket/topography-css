@@ -47,7 +47,7 @@ const code = `
     return (
         <div className="text-left" style={{marginBottom: '4rem'}}>
             <div className="table">
-                <ReactMarkdown source={markdown} plugins={[gfm]} />
+                <ReactMarkdown source={markdown} plugins={[gfm]} wrapLongLines={true} />
             </div>
             <h3>Examples</h3>
             <div className="background outline padding-double">
@@ -68,7 +68,9 @@ const code = `
             </div>
             <div>
             <h3>Code</h3>
+            <div style={{overflowX: 'hidden', minHeight: 0, minWidth: 0}}>
             <ReactMarkdown renderers={props.renderers} children={code} />
+            </div>
             </div>
         </div>
     );
