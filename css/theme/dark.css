@@ -8,5 +8,6 @@
     --element-highlight: var(--dark-highlight);
     --border-highlight: var(--dark-highlight);
     --text-highlight: var(--light-text);
-    --contrast: var(--dark-contrast)
+    --contrast: var(--dark-contrast);
+    --link: var(--dark-link);
 }

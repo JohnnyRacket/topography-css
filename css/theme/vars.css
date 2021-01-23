@@ -5,6 +5,7 @@
     --light-highlight: #d7d7db;
     --light-outline: #aaa;
     --light-contrast: #fff;
+    --light-link: #555;
 
     --dark-background: #161517;
     --dark-element: #2c2c2f;
@@ -12,6 +13,7 @@
     --dark-highlight: #3a3a3d;
     --dark-outline: #555;
     --dark-contrast: #000;
+    --dark-link: #aaa;
 
     --accent-element: #05a3f0;
     --accent-highlight: #0fbcf9;

@@ -1,6 +1,8 @@
 import {useState} from 'react';
 import './Sidebar.css';
 
+import {ColorSelector} from './ColorSelector';
+
 export const Sidebar = (props) => {
 
     const [results, setResults] = useState([]);
@@ -163,20 +165,21 @@ export const Sidebar = (props) => {
         <div className="element semi-rounded spaced margin text-left" style={{width: '300px', position: 'fixed'}}>
         <h3>Search</h3>
         <div className="flex row flex-center">
-            <input value={search} className="input rounded fill-width margin-none contrast" placeholder="Search..." onChange={(e) => setSearch(e.target.value)} onKeyDown={e => e.key === 'Enter' ? setResults(filterByValue(sections, search)) : null}></input>
+            <input value={search} className="input rounded fill-width margin-none contrast" placeholder="Search..." onChange={(e) => {setSearch(e.target.value); setResults(filterByValue(sections, e.target.value));}}></input>
             <button style={{marginRight: 0}} className="input rounded accent text-center" onClick={() => {setResults(filterByValue(sections, search)); console.log(filterByValue(sections, search))}}>Go</button>  
         </div>
-        <h3>Results</h3>
+        <h3>Sections</h3>
         {
-        results.length === 0 
+        search.length === 0 
         ?
-        <div className="note margin-half">Search to find results...</div>
+        sections.map(section => <a href={`#${section.href}`}><div className="link padding-half" >{section.name}</div></a>)
         :
         results.map(section => <a href={`#${section.href}`}><div className="link padding-half" >{section.name}</div></a>)
         }
-        <h3>Sections</h3>
-        {sections.map(section => <a href={`#${section.href}`}><div className="link padding-half" >{section.name}</div></a>)}
-
+        <h3>Accent Color Picker</h3>
+            <ColorSelector initialColor="#05a3f0" name="accent-element"/>
+            <ColorSelector initialColor="#0fbcf9" name="accent-highlight"/>
+        
         </div>
     );
   }

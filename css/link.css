@@ -1,9 +1,26 @@
 .link{
-    color:var(--medium-text);
+    color: var(--link);
     font-weight: bold;
     cursor: pointer;
 }
 
 .link:hover{
     color:var(--text-highlight);
+}
+
+a:link {
+color: var(--link);
+}
+
+a:visited {
+color: var(--medium-text);
+}
+
+a:hover {
+color: var(--text-highlight);
+}
+
+
+a:active {
+color: var(--text-highlight);
 }

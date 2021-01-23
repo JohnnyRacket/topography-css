@@ -13,7 +13,7 @@ function App() {
   return (
     <div className={`App background ${theme}`} style={{minHeight: '100vh'}}>
       <Header toggleTheme={() => {theme == "dark" ? setTheme("light") : setTheme("dark")}}/>
-      <div className="container">
+      <div className="container" style={{paddingTop: '3.5rem'}}>
         <div className="flex flex-row flex-wrap">
           <div className="margin-double padding flex-fill content" style={{minWidth: 0}}>
           <SortBar />

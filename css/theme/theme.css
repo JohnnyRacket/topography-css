@@ -9,4 +9,5 @@
     --border-highlight: var(--light-highlight);
     --text-highlight: var(--dark-text);
     --contrast: var(--light-contrast);
+    --link: var(--light-link);
 }
