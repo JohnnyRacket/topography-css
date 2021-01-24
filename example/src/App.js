@@ -9,7 +9,8 @@ import { Footer } from './Footer';
 import { Documentation } from './Documentation/Documentation';
 
 function App() {
-  const [theme, setTheme] = useState("dark");
+  const browserTheme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
+  const [theme, setTheme] = useState(browserTheme);
   return (
     <div className={`App background ${theme}`} style={{minHeight: '100vh'}}>
       <Header toggleTheme={() => {theme == "dark" ? setTheme("light") : setTheme("dark")}}/>

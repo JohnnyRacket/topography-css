@@ -1,0 +1,11 @@
+.error-text, .error-text:hover, .error-text:focus{
+    color: var(--error);
+}
+
+.error-outline, .error-outline:hover, .error-outline:focus{
+    border-color: var(--error);
+}
+
+.error-background, .error-background:hover, .error-background:focus{
+    background-color: var(--error);
+}

@@ -17,10 +17,13 @@
 
     --accent-element: #05a3f0;
     --accent-highlight: #0fbcf9;
+    --accent-text: #fff;
 
     --light-text: #fff;
     --medium-light-text: #ddd;
     --medium-text: #777;
     --medium-dark-text: #333;
     --dark-text: #000;
+
+    --error: #BF3100;
 }

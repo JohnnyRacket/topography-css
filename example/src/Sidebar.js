@@ -179,7 +179,7 @@ export const Sidebar = (props) => {
         <h3>Accent Color Picker</h3>
             <ColorSelector initialColor="#05a3f0" name="accent-element"/>
             <ColorSelector initialColor="#0fbcf9" name="accent-highlight"/>
-        
+            <ColorSelector initialColor="#fff" name="accent-text" colors={['#fff', '#000']} />
         </div>
     );
   }
