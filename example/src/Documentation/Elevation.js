@@ -30,17 +30,17 @@ A common way to combine the above is to have an element have a low/no elevation 
 
 const code = `
 ~~~js
-<div className="element margin spaced semi-rounded elevation-0" style={{ width: '100px', height: '100px' }}>elevation 0</div>
-<div className="element margin spaced semi-rounded elevation-1" style={{ width: '100px', height: '100px' }}>elevation 1</div>
-<div className="element margin spaced semi-rounded elevation-2" style={{ width: '100px', height: '100px' }}>elevation 2</div>
-<div className="element margin spaced semi-rounded elevation-3" style={{ width: '100px', height: '100px' }}>elevation 3</div>
-<div className="element margin spaced semi-rounded elevation-4" style={{ width: '100px', height: '100px' }}>elevation 4</div>
+<div class="element margin spaced semi-rounded elevation-0" style={{ width: '100px', height: '100px' }}>elevation 0</div>
+<div class="element margin spaced semi-rounded elevation-1" style={{ width: '100px', height: '100px' }}>elevation 1</div>
+<div class="element margin spaced semi-rounded elevation-2" style={{ width: '100px', height: '100px' }}>elevation 2</div>
+<div class="element margin spaced semi-rounded elevation-3" style={{ width: '100px', height: '100px' }}>elevation 3</div>
+<div class="element margin spaced semi-rounded elevation-4" style={{ width: '100px', height: '100px' }}>elevation 4</div>
 
-<div className="element margin spaced semi-rounded hover-elevation-0" style={{ width: '100px', height: '100px' }}>hover-elevation 0</div>
-<div className="element margin spaced semi-rounded hover-elevation-1" style={{ width: '100px', height: '100px' }}>hover-elevation 1</div>
-<div className="element margin spaced semi-rounded hover-elevation-2" style={{ width: '100px', height: '100px' }}>hover-elevation 2</div>
-<div className="element margin spaced semi-rounded hover-elevation-3" style={{ width: '100px', height: '100px' }}>hover-elevation 3</div>
-<div className="element margin spaced semi-rounded hover-elevation-4" style={{ width: '100px', height: '100px' }}>hover-elevation 4</div>
+<div class="element margin spaced semi-rounded hover-elevation-0" style={{ width: '100px', height: '100px' }}>hover-elevation 0</div>
+<div class="element margin spaced semi-rounded hover-elevation-1" style={{ width: '100px', height: '100px' }}>hover-elevation 1</div>
+<div class="element margin spaced semi-rounded hover-elevation-2" style={{ width: '100px', height: '100px' }}>hover-elevation 2</div>
+<div class="element margin spaced semi-rounded hover-elevation-3" style={{ width: '100px', height: '100px' }}>hover-elevation 3</div>
+<div class="element margin spaced semi-rounded hover-elevation-4" style={{ width: '100px', height: '100px' }}>hover-elevation 4</div>
 ~~~
 `
 

@@ -16,8 +16,8 @@ export const Layout = (props) => {
 
 const code = `
 ~~~js
-<input className="input semi-rounded line-length" placeholder="line-length input"></input>
-<input className="input semi-rounded fill-width" placeholder="fill-width input"></input>
+<input class="input semi-rounded line-length" placeholder="line-length input"></input>
+<input class="input semi-rounded fill-width" placeholder="fill-width input"></input>
 ~~~
 `
 

@@ -13,9 +13,9 @@ export const Modifiers = (props) => {
 `;
 const code = `
 ~~~js
-<div className="element margin spaced" style={{ width: '100px', height: '100px' }}>basic element</div>
-<div className="element outline margin spaced" style={{ width: '100px', height: '100px' }}> outline element</div>
-<div className="element link margin spaced" style={{ width: '100px', height: '100px' }}>link element</div>
+<div class="element margin spaced" style={{ width: '100px', height: '100px' }}>basic element</div>
+<div class="element outline margin spaced" style={{ width: '100px', height: '100px' }}> outline element</div>
+<div class="element link margin spaced" style={{ width: '100px', height: '100px' }}>link element</div>
 ~~~
 `;
 

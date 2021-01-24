@@ -16,10 +16,10 @@ export const Shape = (props) => {
 `;
 const code = `
 ~~~js
-<button className="input accent">square</button>
-<button className="input accent semi-rounded">semi-rounded</button>
-<button className="input accent rounded">rounded</button>
-<button className="input accent round" style={{ width: '5rem', height: '5rem' }}>round</button>
+<button class="input accent">square</button>
+<button class="input accent semi-rounded">semi-rounded</button>
+<button class="input accent rounded">rounded</button>
+<button class="input accent round" style={{ width: '5rem', height: '5rem' }}>round</button>
 ~~~
 `;
     return (

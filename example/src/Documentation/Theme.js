@@ -16,9 +16,9 @@ export const Theme = (props) => {
 
     const code = `
 ~~~js
-<button className="input light">light</button>
-<button className="input dark">dark</button>
-<button className="input accent">accent</button>
+<button class="input light">light</button>
+<button class="input dark">dark</button>
+<button class="input accent">accent</button>
 ~~~
 `
 

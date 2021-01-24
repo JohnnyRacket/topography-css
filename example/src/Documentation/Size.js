@@ -16,9 +16,9 @@ export const Size = (props) => {
 `;
 const code = `
 ~~~js
-<button className="input accent small semi-rounded">small</button>
-<button className="input accent medium semi-rounded">medium</button>
-<button className="input accent large semi-rounded">large</button>
+<button class="input accent small semi-rounded">small</button>
+<button class="input accent medium semi-rounded">medium</button>
+<button class="input accent large semi-rounded">large</button>
 ~~~
 `;
     return (

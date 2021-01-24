@@ -14,9 +14,9 @@ export const Surface = (props) => {
 `;
 const code = `
 ~~~js
-<div className="background outline spaced" style={{ width: '120px', height: '120px' }}> background</div>
-<div className="element outline spaced" style={{ width: '120px', height: '120px' }}>element</div>
-<div className="contrast outline spaced" style={{ width: '120px', height: '120px' }}>contrast</div>
+<div class="background outline spaced" style={{ width: '120px', height: '120px' }}> background</div>
+<div class="element outline spaced" style={{ width: '120px', height: '120px' }}>element</div>
+<div class="contrast outline spaced" style={{ width: '120px', height: '120px' }}>contrast</div>
 ~~~
 `;
 

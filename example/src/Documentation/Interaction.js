@@ -14,8 +14,8 @@ export const Interaction = (props) => {
 `;
 const code = `
 ~~~js
-<div className="element semi-rounded spaced">normal</div>
-<div className="element semi-rounded spaced highlight">highlight</div>
+<div class="element semi-rounded spaced">normal</div>
+<div class="element semi-rounded spaced highlight">highlight</div>
 ~~~
 `
 
