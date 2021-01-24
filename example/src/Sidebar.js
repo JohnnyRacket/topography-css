@@ -47,6 +47,19 @@ export const Sidebar = (props) => {
             `
         },
         {
+            "name": "Form Inputs",
+            "href": "forms",
+            "text":`
+            ## Form Inputs
+
+            Examples of buttons, inputs, text areas, selects, and check boxes
+            
+            | Class      | Description |
+            | ----------- | ----------- |
+            | **input** | applies a default stylying to inputs |
+            `
+        },
+        {
             "name": "Interaction Modifiers",
             "href": "interaction",
             "text":`

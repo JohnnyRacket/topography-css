@@ -11,6 +11,7 @@ import {Size} from './Size';
 import {Layout} from './Layout';
 import {Flex} from './Flex';
 import {Spacing} from './Spacing';
+import { Forms } from './Forms';
 
 export const Documentation = (props) => {
     const renderers = {
@@ -30,6 +31,9 @@ export const Documentation = (props) => {
             </a>
             <a id="modifier">
                 <Modifiers renderers={renderers}/>
+            </a>
+            <a id="forms">
+                <Forms renderers={renderers}/>
             </a>
             <a id="elevation" >
                 <Elevation renderers={renderers}/>
