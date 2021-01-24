@@ -12,7 +12,7 @@ export const Modifiers = (props) => {
 | **link**| no surface, but bold text that will brighten/contrast when hovered |
 `;
 const code = `
-~~~js
+~~~xml
 <div class="element margin spaced" style={{ width: '100px', height: '100px' }}>basic element</div>
 <div class="element outline margin spaced" style={{ width: '100px', height: '100px' }}> outline element</div>
 <div class="element link margin spaced" style={{ width: '100px', height: '100px' }}>link element</div>

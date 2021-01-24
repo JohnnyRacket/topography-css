@@ -13,7 +13,7 @@ export const Surface = (props) => {
 | **contrast** | a deep contrasting color, by default true black and true white |
 `;
 const code = `
-~~~js
+~~~xml
 <div class="background outline spaced" style={{ width: '120px', height: '120px' }}> background</div>
 <div class="element outline spaced" style={{ width: '120px', height: '120px' }}>element</div>
 <div class="contrast outline spaced" style={{ width: '120px', height: '120px' }}>contrast</div>

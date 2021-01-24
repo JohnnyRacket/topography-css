@@ -29,7 +29,7 @@ A common way to combine the above is to have an element have a low/no elevation 
 `;
 
 const code = `
-~~~js
+~~~xml
 <div class="element margin spaced semi-rounded elevation-0" style={{ width: '100px', height: '100px' }}>elevation 0</div>
 <div class="element margin spaced semi-rounded elevation-1" style={{ width: '100px', height: '100px' }}>elevation 1</div>
 <div class="element margin spaced semi-rounded elevation-2" style={{ width: '100px', height: '100px' }}>elevation 2</div>

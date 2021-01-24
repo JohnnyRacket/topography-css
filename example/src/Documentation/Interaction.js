@@ -13,7 +13,7 @@ export const Interaction = (props) => {
 
 `;
 const code = `
-~~~js
+~~~xml
 <div class="element semi-rounded spaced">normal</div>
 <div class="element semi-rounded spaced highlight">highlight</div>
 ~~~

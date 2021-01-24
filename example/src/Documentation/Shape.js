@@ -15,7 +15,7 @@ export const Shape = (props) => {
 
 `;
 const code = `
-~~~js
+~~~xml
 <button class="input accent">square</button>
 <button class="input accent semi-rounded">semi-rounded</button>
 <button class="input accent rounded">rounded</button>

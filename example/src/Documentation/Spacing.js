@@ -14,7 +14,7 @@ export const Spacing = (props) => {
 `;
 
     const code = `
-~~~js
+~~~xml
 // coming soon...
 ~~~
 `

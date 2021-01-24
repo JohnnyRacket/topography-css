@@ -15,7 +15,7 @@ export const Size = (props) => {
 
 `;
 const code = `
-~~~js
+~~~xml
 <button class="input accent small semi-rounded">small</button>
 <button class="input accent medium semi-rounded">medium</button>
 <button class="input accent large semi-rounded">large</button>

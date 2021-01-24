@@ -23,7 +23,7 @@ these are classes that are just shorhand utiliy classes for styling
 `;
 
 const code = `
-~~~js
+~~~xml
 // coming soon...
 ~~~
 `
